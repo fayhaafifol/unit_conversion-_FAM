@@ -163,3 +163,5 @@ class Ui_MainWindow(object):
         self.label_7.setText(_translate("MainWindow", "(farfa4a and mar2a3a)"))
         self.label_8.setText(_translate("MainWindow", "From:"))
         self.label_9.setText(_translate("MainWindow", "To:"))
+
+
