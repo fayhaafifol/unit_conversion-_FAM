@@ -50,69 +50,11 @@
      </property>
     </item>
    </widget>
-   <widget class="QComboBox" name="FC">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>150</y>
-      <width>86</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(201, 148, 225);</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit">
-    <property name="geometry">
-     <rect>
-      <x>80</x>
-      <y>150</y>
-      <width>141</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>350</x>
-      <y>150</y>
-      <width>151</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
-
-gridline-color: rgb(0, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox">
-    <property name="geometry">
-     <rect>
-      <x>500</x>
-      <y>150</y>
-      <width>86</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(145, 230, 151);
-background-color: rgb(249, 173, 213);</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>280</y>
+      <x>310</x>
+      <y>300</y>
       <width>261</width>
       <height>20</height>
      </rect>
@@ -137,8 +79,8 @@ background-color: rgb(249, 173, 213);</string>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>320</y>
+      <x>390</x>
+      <y>340</y>
       <width>101</width>
       <height>41</height>
      </rect>
@@ -218,6 +160,15 @@ background-color: rgb(249, 173, 213);</string>
       <height>861</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Purisa</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -244,82 +195,118 @@ background-color: rgb(249, 173, 213);</string>
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>41</width>
-      <height>41</height>
+      <x>100</x>
+      <y>150</y>
+      <width>81</width>
+      <height>31</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(247, 145, 145);</string>
+    <property name="font">
+     <font>
+      <family>Purisa</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
-     <string/>
+     <string>From:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>620</x>
-      <y>0</y>
+      <x>110</x>
+      <y>230</y>
       <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Purisa</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>To:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="TC">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>220</y>
+      <width>86</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 218, 171);</string>
+     <string notr="true">background-color: rgb(145, 230, 151);
+background-color: rgb(249, 173, 213);</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="FC">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>140</y>
+      <width>86</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(201, 148, 225);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Output">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>220</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+
+gridline-color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_10">
+   <widget class="QLineEdit" name="Input">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>480</y>
-      <width>41</width>
+      <x>350</x>
+      <y>140</y>
+      <width>151</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 235, 103);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_11">
-    <property name="geometry">
-     <rect>
-      <x>610</x>
-      <y>480</y>
-      <width>51</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(145, 230, 151);</string>
-    </property>
-    <property name="text">
-     <string/>
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
    <zorder>label_2</zorder>
    <zorder>label_3</zorder>
    <zorder>MC</zorder>
-   <zorder>FC</zorder>
-   <zorder>lineEdit</zorder>
-   <zorder>label</zorder>
-   <zorder>comboBox</zorder>
    <zorder>label_4</zorder>
    <zorder>label_5</zorder>
    <zorder>label_6</zorder>
    <zorder>label_7</zorder>
    <zorder>label_8</zorder>
    <zorder>label_9</zorder>
-   <zorder>label_10</zorder>
-   <zorder>label_11</zorder>
+   <zorder>TC</zorder>
+   <zorder>FC</zorder>
+   <zorder>Output</zorder>
+   <zorder>Input</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
